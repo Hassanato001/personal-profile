@@ -100,18 +100,21 @@ justify-content: space-between;
     margin-bottom: 20px;
 }
 .service .web{
-background: blur();
+background: blur(5px);
+
 margin: 20px 40px;
 padding: 10px 25px;
 box-shadow: 2px 4px 6px rgb(182, 179, 179);
 }
 .service .tuto{
+    background: blur(5px);
     padding: 10px 25px;
 box-shadow: 2px 4px 6px rgb(182, 179, 179);
 margin: 20px 40px;
 }
 
 .service .ai{
+    background: blur(5px);
     padding: 10px 25px;
 box-shadow: 2px 4px 6px rgb(182, 179, 179);
 margin: 20px 40px;
@@ -121,6 +124,10 @@ margin: 20px 40px;
     margin-top: 5px;
     margin-bottom: 5px ;
     flex-direction: column;
+}
+.service .list img{
+    border-radius: 50%;
+    width: 3rem;
 }
 
 /* about section */
