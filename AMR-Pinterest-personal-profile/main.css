@@ -1,10 +1,15 @@
 *{
-    background-color: rgb(221, 223, 222);
-}
+    /* background-color: rgb(242, 250, 247); */
+    /* margin: 0px;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 body{
-    margin: 20px 30px;
-    padding: 2px 10px ;
+    background-color: rgb(238, 240, 240);
+    margin: 10px 15px;
+    /* padding: 5px 10px; */
 }
+/* header section */
 .header{
        background-color: green;
        border-radius: 40px;
@@ -38,10 +43,33 @@ body{
 background-color: white;
 border-radius: 30px;
 }
-
+/* Introduction texts */
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-between;
+}
+.intro #texts{
+    width: 25rem;
+}
+.intro #image{
+    width: 25rem;
+     margin-top: 100px;
+    margin-bottom: -40px;
+}
 #texts h4{
     font-size: 40px;
     font-weight: 600;
+}
+#texts h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: -40px;
+}
+i{
+ color: gold;
+ text-decoration: underline;  
 }
 .btn button {
     border-radius: 30px;
@@ -55,3 +83,75 @@ background-color: green;
  #btn2{
     color:black;
 }
+
+/* Horizontal strip section */
+
+/* Service section */
+.service{
+   
+}
+.service .head{
+ display: flex;
+margin-bottom:15px;
+justify-content: space-between;
+}
+.service .list{
+ display: flex;
+    margin-bottom: 20px;
+}
+.service .web{
+background: blur();
+margin: 20px 40px;
+padding: 10px 25px;
+box-shadow: 2px 4px 6px rgb(182, 179, 179);
+}
+.service .tuto{
+    padding: 10px 25px;
+box-shadow: 2px 4px 6px rgb(182, 179, 179);
+margin: 20px 40px;
+}
+
+.service .ai{
+    padding: 10px 25px;
+box-shadow: 2px 4px 6px rgb(182, 179, 179);
+margin: 20px 40px;
+}
+.service span{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    flex-direction: column;
+}
+
+/* about section */
+.about{
+    background-color: rgb(8, 99, 8);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+color: whitesmoke;
+}
+.about img{
+    width: 20rem;
+    margin: 2px 15px ;
+    padding: 10px 15px;
+    background-color: yellow;
+    border-radius: 50%;
+   
+}
+.about .text{
+    width: 25rem;
+margin: 10px 15px ;
+padding: 10px 15px;
+text-align: center;
+
+}
+.about .text .row {
+    display: flex;
+    width:3px 10px ;
+    padding: 3px 10px ;
+}
+.about .text .row a{
+color:gold;
+}
+/* Footer section  */
